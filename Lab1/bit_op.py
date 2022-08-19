@@ -15,16 +15,16 @@ print "a & b = " , c , "(",bin(c),")"
 c = a | b;
 print "a | b = " , c , "(",bin(c) ,")"
 
-c = a ^ b;       
+c = a ^ b;       #XOR
 print "a ^ b = " , c , "(",bin(c),")"
 
-c = ~a;       
+c = ~a;         #NOT
 print "~a = " , c , "(",bin(c),")"
 print "~b = " , ~b , "(",bin(~b),")"
 
-c = a << 2;       
+c = a << 2;     #Deslocamento de dois bits  
 print "a << 2 = " , c , "(",bin(c),")"
 
-c = a >> 2;       
+c = a >> 2;      #Deslocamento de dois bits
 print "a >> 2 = " , c , "(",bin(c),")"
 
