@@ -7,24 +7,23 @@ def xor(a, b):
 a = int(input("Digite o valor de a (<= 255): "))
 b = int(input("Digite o valor de b (<= 255): "))
 
-print "a = ", bin(a) , "e b = " , bin(b)
+print(f"a = {a:08b} e b = {b:08b}")
  
 c = a & b;
-print "a & b = " , c , "(",bin(c),")"
+print(f"a & b = {c} ({c:08b})")
 
 c = a | b;
-print "a | b = " , c , "(",bin(c) ,")"
+print(f"a | b = {c} ({c:08b})")
 
 c = a ^ b;       #XOR
-print "a ^ b = " , c , "(",bin(c),")"
+print(f"a ^ b = {c} ({c:08b})")
 
 c = ~a;         #NOT
-print "~a = " , c , "(",bin(c),")"
-print "~b = " , ~b , "(",bin(~b),")"
+print(f"~a = {c}, ({c:08b})")
+print(f"~b = {~b}, ({~b:08b})")
 
 c = a << 2;     #Deslocamento de dois bits  
-print "a << 2 = " , c , "(",bin(c),")"
+print(f"a << 2 = {c}, ({c:08b})")
 
 c = a >> 2;      #Deslocamento de dois bits
-print "a >> 2 = " , c , "(",bin(c),")"
-
+print(f"a >> 2 = {c}, ({c:08b})")
