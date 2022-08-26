@@ -1,4 +1,4 @@
 # ea871
 Laboratório de programação básica de sistemas digitais
 
-kl25z128
+MCU: kl25z128
